@@ -7,10 +7,15 @@ import java.util.function.Predicate;
 public class Aula04 {
 
     public static void filter(List<String> list, Predicate<String> predicate) {
-        for (String s : list) {
-            if (predicate.test(s))
-                System.out.println(s);
-        }
+        ///*Iteração Externa (O que fazer e Como fazer)*/
+//        for (String s : list) {
+//            if (predicate.test(s))
+//                System.out.println(s);
+//        }
+
+        /*Iteração Interna (O que fazer)*/
+        list.stream().filter(predicate)
+                .forEach(System.out::println);
     }
 
     public static void main(String[] args) {
