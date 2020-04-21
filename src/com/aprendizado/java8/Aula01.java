@@ -1,10 +1,10 @@
 package com.aprendizado.java8;
 
-public class Main {
+public class Aula01 {
 
     public static void main(String[] args) {
         /*Implementação da classe anonima Runnable,
-         * usada quando não é necessário utilizar a referência de */
+         * usada quando não é necessário utilizar a referência de uma Classe*/
         Runnable r1 = new Runnable() {
             @Override
             public void run() {
