@@ -1,4 +1,4 @@
-package com.aprendizado.java8;
+package com.aprendizado.java8.eXcript;
 
 import java.util.Arrays;
 import java.util.List;
