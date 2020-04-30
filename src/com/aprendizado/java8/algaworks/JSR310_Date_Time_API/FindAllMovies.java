@@ -8,8 +8,6 @@ public class FindAllMovies {
     public static void main(String[] args) {
         MovieRepository movieRepository = new MovieRepository();
 
-        movieRepository.findAll().forEach(movie -> {
-            System.out.printf("%s - %s\n", movie.getName(), movie.getReleaseDate().format(DateTimeFormatter.ofPattern("dd/MM/yyyy")));
-        });
+        movieRepository.findAll().forEach(movie -> System.out.printf("%s - %s\n", movie.getName(), movie.getReleaseDate().format(DateTimeFormatter.ofPattern("dd/MM/yyyy"))));
     }
 }

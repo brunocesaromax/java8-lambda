@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class MovieRepository {
+//    Poderia ser um findAll no Banco de dados
     private static Movie[] movies = {
             new Movie("Avengers Ultimato", LocalDate.of(2019, Month.OCTOBER, 22), new BigDecimal(15)),
             new Movie("Thor", LocalDate.of(2017, Month.APRIL, 20), new BigDecimal(15)),
@@ -19,5 +20,9 @@ public class MovieRepository {
 
     public List<Movie> findAll(){
         return Arrays.asList(movies);
+    }
+
+    public Movie findByIndex(int index){
+        return movies[index];
     }
 }
