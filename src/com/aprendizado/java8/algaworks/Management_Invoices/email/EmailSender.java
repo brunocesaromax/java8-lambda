@@ -1,4 +1,4 @@
-package com.aprendizado.java8.algaworks.ManagementInvoices.email;
+package com.aprendizado.java8.algaworks.Management_Invoices.email;
 
 public class EmailSender {
 

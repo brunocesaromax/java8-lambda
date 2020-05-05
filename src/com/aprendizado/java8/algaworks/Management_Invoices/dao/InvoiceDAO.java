@@ -1,6 +1,6 @@
-package com.aprendizado.java8.algaworks.ManagementInvoices.dao;
+package com.aprendizado.java8.algaworks.Management_Invoices.dao;
 
-import com.aprendizado.java8.algaworks.ManagementInvoices.model.Invoice;
+import com.aprendizado.java8.algaworks.Management_Invoices.model.Invoice;
 
 import java.time.LocalDate;
 import java.util.Arrays;

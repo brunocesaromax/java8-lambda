@@ -1,8 +1,8 @@
-package com.aprendizado.java8.algaworks.ManagementInvoices;
+package com.aprendizado.java8.algaworks.Management_Invoices;
 
-import com.aprendizado.java8.algaworks.ManagementInvoices.dao.InvoiceDAO;
-import com.aprendizado.java8.algaworks.ManagementInvoices.email.EmailSender;
-import com.aprendizado.java8.algaworks.ManagementInvoices.model.Invoice;
+import com.aprendizado.java8.algaworks.Management_Invoices.dao.InvoiceDAO;
+import com.aprendizado.java8.algaworks.Management_Invoices.email.EmailSender;
+import com.aprendizado.java8.algaworks.Management_Invoices.model.Invoice;
 
 import java.util.List;
 

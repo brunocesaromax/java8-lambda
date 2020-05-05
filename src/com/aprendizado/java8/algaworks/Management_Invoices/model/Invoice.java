@@ -1,4 +1,4 @@
-package com.aprendizado.java8.algaworks.ManagementInvoices.model;
+package com.aprendizado.java8.algaworks.Management_Invoices.model;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
