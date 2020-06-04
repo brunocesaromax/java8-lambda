@@ -1,6 +1,3 @@
-# java8-lambda
-Novidades do java 8 e o uso de expressões Lambda.
-
 # Java 8 Features
 Set of small projects using the features (Stream API, Lambdas, Date Time API, Optional, etc) of java 8.
 
